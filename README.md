@@ -1,4 +1,6 @@
 # 💳 Credit Risk & Loan Default Prediction Pipeline
+<img width="1080" height="803" alt="image" src="https://github.com/user-attachments/assets/0a6675d0-b5a7-4950-9a96-340efe79572b" />
+
 
 > **A Production-Ready Machine Learning Pipeline for Predicting Loan Default Risk**
 
@@ -127,6 +129,9 @@ ColumnTransformer
      ▼
 Random Forest Classifier
 ```
+<img width="1080" height="862" alt="image" src="https://github.com/user-attachments/assets/05c3e370-d715-490e-8c35-adaf517eaa3d" /><img width="1080" height="782" alt="image" src="https://github.com/user-attachments/assets/cf4d2dd7-f272-4b69-b78e-d1bbc6a22b8c" /><img width="1006" height="731" alt="image" src="https://github.com/user-attachments/assets/0450c9a1-2d08-407c-9cdc-dded528f4aac" />
+
+
 
 ---
 

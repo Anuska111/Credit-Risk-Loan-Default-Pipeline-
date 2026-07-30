@@ -78,11 +78,13 @@ if st.button("Predict"):
     prediction = model.predict(input_df)[0]
     probability = model.predict_proba(input_df)[0][1]
 
-    if prediction == 1:
-        st.error(f"⚠️ High Risk of Loan Default
-
-Probability: {probability:.2%}")
-    else:
-        st.success(f"✅ Low Risk of Loan Default
-
-Probability: {probability:.2%}")
+   if prediction == 1:
+    st.error(
+        f"⚠️ High Risk of Loan Default\n\n"
+        f"Probability: {probability:.2%}"
+    )
+else:
+    st.success(
+        f"✅ Low Risk of Loan Default\n\n"
+        f"Probability: {probability:.2%}"
+    )
